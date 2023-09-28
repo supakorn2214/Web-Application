@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+            *{
+            padding: 2;
+            margin: 2;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            }
+            body {background-color: #f79f79fd;}
+            from { display: center }
+            .submit{
+            font-size: 0.5em;
+            margin-top: 0.8em;
+            background-color: #587ef4;
+            border: none;
+            outline: none;
+            color: #fff;
+            padding: 0.6em 1.2em;
+            border-radius: 0.3em;
+            cursor: pointer;
+            }
+        </style>
+        <title>Add Stock</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2><center><font size = "10px">Add Stock</font></center></h2>
+        <form action="AddNewStock2">
+            <center>Name : 
+            <input type="text" name="name"><br><br>
+            Type :  
+            <input type="text" name="type"><br><br>
+            Price : 
+            <input type="text" name="price"><br><br></center>
+            <center><font size = "10px"><input class="submit" type="submit" value="Add Stock"></font></center>
+        </form>
+    </body>
+</html>
